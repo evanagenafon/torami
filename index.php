@@ -16,14 +16,14 @@
 					<?PHP the_excerpt(); ?>
 					<p class="postinfo"><?PHP echo get_the_date(); ?></p>
 				</div><!--post-->
-				
+
 				<?PHP if(is_single()): ?>
 				<p class="new"><?PHP next_post_link(); ?></p>
 				<p class="old"><?PHP previous_post_link(); ?></p>
 				<?PHP endif; ?>
 				<?PHP endwhile; endif; ?>
 			</div><!--blogwrap-->
-			
+
 			<div class="sidebar">
 					<li>
 					<h2>最新記事</h2>
@@ -43,7 +43,7 @@
 		<ul>
 			<li>
 				<h3 class="no1">手数料は全て0円</h3>
-				<p>手数料、鑑定査定料、出張費用、宅配買取費用すべて0円です♪査定のみも大歓迎！お気軽にお問合せ下さいませ♪</p>
+				<p>手数料、鑑定査定料、出張費用、宅配買取費用すべて0円♪査定のみも大歓迎！お気軽にお問合せ下さいませ♪</p>
 			</li>
 			<li>
 				<h3 class="no2">経験豊富な専門鑑定士が多数在籍</h3>
@@ -70,4 +70,3 @@
 </div><!--wrap-->
 
 <?PHP get_footer(); ?>
-
