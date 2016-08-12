@@ -1,9 +1,10 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html lang="ja">
 <head>
+<meta charset="UTF-8">
 <meta name="format-detection" content="telephone=no">
 <meta http-equiv="Content-Type" content="<?PHP bloginfo('html_type'); ?>; charset=<?PHP bloginfo('charset'); ?>" />
-<title>TORAMI</title>
+<title><?PHP the_title(); ?> | ブランドの査定・買取はTORAMI～トラミ～。</title>
 <link rel="stylesheet" type="text/css" href="<?PHP echo get_stylesheet_directory_uri(); ?>/css/reset.css"/>
 <link rel="stylesheet" type="text/css" href="<?PHP echo get_stylesheet_directory_uri(); ?>/css/style.css"/>
 <?php wp_deregister_script('jquery'); ?>
@@ -62,7 +63,7 @@ function isPhone() {
 	</dl>
 	<p class="side_brand">お取り扱いブランド</p>
 	<p><a href="http://torami.jp/brand/">もっと見る</a></p>
-	
+
 	<?PHP wp_nav_menu(array(
 	'theme_location'=>'sublocation'
 	)); ?>
@@ -74,12 +75,12 @@ function isPhone() {
 		<div class="blog">
 			<div class="blogwrap">
 			<?PHP if(have_posts()): while(have_posts()): the_post(); ?>
-				<div class="single_post">
+				<article class="single_post">
 					<h2><?PHP the_title(); ?></h2>
 					<?php the_content(); ?>
 					<p class="postinfo"><?PHP echo get_the_date(); ?></p>
-				</div><!--post-->
-				
+				</article><!--single_post-->
+
 				<?PHP if(is_single()): ?>
 				<p class="new"><?PHP next_post_link(); ?></p>
 				<p class="old"><?PHP previous_post_link(); ?></p>
@@ -87,7 +88,7 @@ function isPhone() {
 				<?PHP endif; ?>
 				<?PHP endwhile; endif; ?>
 			</div><!--blogwrap-->
-			
+
 			<div class="sidebar">
 				<li>
 					<h2>最新記事</h2>

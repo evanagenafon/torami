@@ -10,12 +10,12 @@
 			<div class="blogwrap">
 			<?php query_posts('cat=-2,-10,-11'); ?>
 			<?PHP if(have_posts()): while(have_posts()): the_post(); ?>
-				<div class="post">
+				<article class="post">
 					<h2><a href="<?PHP the_permalink(); ?>"><?PHP the_title(); ?></a></h2>
 					<p><img src="<?php echo catch_that_image(); ?>" alt="<?php the_title(); ?>" /></p>
 					<?PHP the_excerpt(); ?>
 					<p class="postinfo"><?PHP echo get_the_date(); ?></p>
-				</div><!--post-->
+				</article><!--post-->
 
 				<?PHP if(is_single()): ?>
 				<p class="new"><?PHP next_post_link(); ?></p>
