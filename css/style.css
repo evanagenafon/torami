@@ -518,8 +518,9 @@ p.postinfo{
 }
 
 .single_post>p>img{
-  margin: 16px 0;
-  font-size: 16px;
+  /*margin: 16px 0;
+  font-size: 16px;*/
+  width: auto;
 }
 
 h2.title{
