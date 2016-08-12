@@ -522,8 +522,8 @@ p.postinfo{
   font-size: 16px;
 }
 　
-article.single_post>p>img{
-	width: auto;
+article.single_post > p > img{
+	height: auto;
 }
 
 h2.title{
