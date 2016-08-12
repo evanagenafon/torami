@@ -71,7 +71,7 @@ body{
 	overflow:hidden;
 }
 
-h1{
+#site-title{
 	background: url(../img/rogo.png) no-repeat;
 	background-size:contain;
 	width: 300px;
@@ -79,7 +79,7 @@ h1{
 	float:left;
 }
 
-h1>a{
+#site-title>a{
 	text-indent:-9999px;
 	display: block;
 	width: 100%;
@@ -626,7 +626,7 @@ h2.title{
 	margin-left: 50px;
 	padding-left: 50px;
 	border-left: 1px solid #fff;
-	
+
 }
 
 .foot_wrap>ul>li>a{
@@ -793,7 +793,7 @@ li.two{
 	background: url(../img/ptel.png) no-repeat 0;
 	-webkit-background-size: 30px;
 	background-size: 30px;
-	
+
 }
 
 .takuhai>ul>li.no6>p.tel>span{
@@ -1262,7 +1262,7 @@ form.wpcf7-form>p{
 	background: url(../img/ptel.png) no-repeat 0;
 	-webkit-background-size: 30px;
 	background-size: 30px;
-	
+
 }
 
 .juery>.contact>p.tel>span{
@@ -1387,7 +1387,7 @@ p.line{
 	background: url(../img/ptel.png) no-repeat 0;
 	-webkit-background-size: 30px;
 	background-size: 30px;
-	
+
 }
 
 .brand>.contact>p.tel>span{

@@ -33,7 +33,7 @@ function isPhone() {
 <body>
 <div class="wrap">
 	<div class="header">
-		<h1><a href="http://torami.jp">brand reuse TORAMI</a></h1>
+		<p id="site-title"><a href="http://torami.jp">brand reuse TORAMI</a></p>
 		<dl>
 			<dd>【営業時間】11:00～21:00</dd>
 			<dd>【定休日】年中無休(年末年始除く)</dd>
@@ -76,7 +76,7 @@ function isPhone() {
 			<div class="blogwrap">
 			<?PHP if(have_posts()): while(have_posts()): the_post(); ?>
 				<article class="single_post">
-					<h2><?PHP the_title(); ?></h2>
+					<h1><?PHP the_title(); ?></h1>
 					<?php the_content(); ?>
 					<p class="postinfo"><?PHP echo get_the_date(); ?></p>
 				</article><!--single_post-->

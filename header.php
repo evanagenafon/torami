@@ -45,7 +45,7 @@ function isPhone() {
 <div class="all">
 <div class="wrap">
 	<header class="header">
-		<h1><a href="http://torami.jp">関西での高額買取ならブランドのリユース TORAMI　～トラミ～</a></h1>
+		<h1 id="site-title"><a href="http://torami.jp">関西での高額買取ならブランドのリユース TORAMI　～トラミ～</a></h1>
 		<dl>
 			<dd>【営業時間】11:00～21:00</dd>
 			<dd>【定休日】年中無休(年末年始除く)</dd>
@@ -85,7 +85,7 @@ function isPhone() {
 	</dl>
 	<p class="side_brand">お取り扱いブランド</p>
 	<p><a href="http://torami.jp/brand/">もっと見る</a></p>
-	
+
 		<?PHP wp_nav_menu(array(
 	'theme_location'=>'sublocation'
 	)); ?>
