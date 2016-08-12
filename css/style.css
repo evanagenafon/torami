@@ -517,13 +517,9 @@ p.postinfo{
 	font-weight:bold;
 }
 
-.single_post>p{
+.single_post>p>img{
   margin: 16px 0;
   font-size: 16px;
-}
-　
-img.alignnone{
-	width: auto;
 }
 
 h2.title{
