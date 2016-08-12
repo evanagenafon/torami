@@ -50,9 +50,9 @@ a>img:hover{
 	opacity: .85;
 }
 
-/*img{
+img{
 	width: 100%;
-}*/
+}
 
 body{
 	font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
@@ -522,7 +522,7 @@ p.postinfo{
   font-size: 16px;
 }
 　
-article.single_post > p > img.alignnone{
+img.alignnone{
 	width: auto;
 }
 
