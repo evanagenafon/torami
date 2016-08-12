@@ -30,7 +30,7 @@ function isPhone() {
 
 </head>
 
-<body>
+<body id="single">
 <div class="wrap">
 	<div class="header">
 		<p id="site-title"><a href="http://torami.jp">brand reuse TORAMI</a></p>
