@@ -522,7 +522,7 @@ p.postinfo{
   font-size: 16px;
 }
 　
-.single_post>p>img{
+article.single_post>p>img{
 	width: auto;
 }
 
