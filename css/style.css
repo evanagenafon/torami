@@ -440,7 +440,7 @@ li#menu-item-152>a{
 }
 
 #single>.wrap>.main>.blog{
-  height: auto;
+  max-height: 100%;
 }
 
 .blogwrap{
@@ -521,7 +521,7 @@ p.postinfo{
   margin: 16px 0;
   font-size: 16px;
 }
-
+　
 .single_post>p>img{
 	width: auto;
 }
