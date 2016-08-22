@@ -1,3 +1,9 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="format-detection" content="telephone=no">
+<title>ブランドの査定・買取はTORAMI～トラミ～。関西での不用品買取ならトラミ！今話題の断捨離、リユースをお手伝いさせて頂きます。高額査定、即日現金化で生活を楽しく！</title>
 <?PHP get_header(); ?>
 
 	<div class="main">

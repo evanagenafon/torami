@@ -31,7 +31,7 @@ function mydesign($comment, $args, $depth){
 //記事の文字数を指定し、それを超えたら続きを読む表記
 function new_excerpt_mblength($length) {
 	 return 120;
-}	
+}
 add_filter('excerpt_mblength', 'new_excerpt_mblength');
 
 function new_excerpt_more($post) {

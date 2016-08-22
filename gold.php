@@ -3,6 +3,14 @@
 * Template Name: 貴金属買取ページ
 */
 ?>
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="format-detection" content="telephone=no">
+<title>貴金属買取 | TORAMI～トラミ～</title>
+
 <?PHP get_header(); ?>
 
 	<div class="main">
@@ -14,15 +22,15 @@
 			<div class='left'>
 			<h3 class='price1'>金現金買取価格   <span>1g当たり</span></h3>
 			<?php
-			
-			echo file_get_contents("wp-content/themes/torami/sample.txt"); 
-			
+
+			echo file_get_contents("wp-content/themes/torami/sample.txt");
+
 			?>
 		<p><img src="<?php bloginfo('template_url'); ?>/img/simple.jpg" alt="買取はシンプル" /></p>
 		<p><a href="http://torami.jp/juery/"><img src="<?php bloginfo('template_url'); ?>/img/header3.jpg" alt="ジュエリー買取" /></a></p>
 		</div><!--gold-->
 	</div><!--post-->
-	
+
 		<h2><span class="gold_cl">トラミ</span>が選ばれる<span class="pink">6</span>つの理由</h2>
 		<ul>
 			<li>
@@ -54,4 +62,3 @@
 </div><!--wrap-->
 
 <?PHP get_footer(); ?>
-

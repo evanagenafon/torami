@@ -4,6 +4,13 @@
 */
 ?>
 
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="format-detection" content="telephone=no">
+<title>かんたんLINE査定 | TORAMI～トラミ～</title>
+
 <?PHP get_header(); ?>
 
 	<div class="main">
@@ -91,4 +98,3 @@
 </div><!--wrap-->
 
 <?PHP get_footer(); ?>
-
