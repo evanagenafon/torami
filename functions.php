@@ -1,17 +1,6 @@
 <?PHP
 include 'qtags.php';     //クイックタグ関係の関数
 
-//ビジュアルエディターとテーマ表示のスタイルを合わせる
-add_editor_style();
-
-//Simplicityのビジュアルエディタースタイル
-function simplicity_theme_add_editor_styles() {
-  add_editor_style( 'css/admin-editor.css' );
-}
-if ( is_admin_editor_enable() ) {
-  add_action( 'admin_init', 'simplicity_theme_add_editor_styles' );
-}
-
 //ウェジェット
 register_sidebar(array('id'=>'sidebar-1'));
 
