@@ -1,6 +1,5 @@
 <?PHP
 include 'qtags.php';     //クイックタグ関係の関数
-add_editor_style("editor-style.css");
 //ウェジェット
 register_sidebar(array('id'=>'sidebar-1'));
 
