@@ -6,7 +6,7 @@
 			<dd>TEL:<span data-action="call" data-tel="0784147274">078-414-7274</span></dd>
 			<dd>FAX:<span>078-414-7294</span></dd>
 			<dd>【営業時間】11:00～19:00</dd>
-			<dd>【定休日】年中無休(年末年始除く)</dd>
+			<dd>【定休日】毎週水曜日</dd>
 			<dd><span>古物商：大阪府公安委員会許可 第 621120142182</span></dd>
 		</dl>
 		<ul>
