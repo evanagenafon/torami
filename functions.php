@@ -1,12 +1,8 @@
 <?PHP
-
+include 'qtags.php';     //クイックタグ関係の関数
 
 //ウェジェット
-register_sidebar(1);
-register_sidebar(2);
-register_sidebar(3);
-register_sidebar(4);
-register_sidebar(5);
+register_sidebar(array('id'=>'sidebar-1'));
 
 //ナビ
 register_nav_menus(array(
