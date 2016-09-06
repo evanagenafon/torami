@@ -1,3 +1,10 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="format-detection" content="telephone=no">
+<title><?PHP the_title(); ?> | TORAMI～トラミ～</title>
+
 <?PHP get_header(); ?>
 
 	<div class="main">
@@ -38,4 +45,3 @@
 </div><!--wrap-->
 
 <?PHP get_footer(); ?>
-

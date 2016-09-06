@@ -41,12 +41,12 @@ function isPhone() {
 	<header class="header">
 		<h1 id="site-title"><a href="http://torami.jp">関西での高額買取ならブランドのリユース TORAMI　～トラミ～</a></h1>
 		<dl>
-			<dd>【営業時間】11:00～21:00</dd>
-			<dd>【定休日】年中無休(年末年始除く)</dd>
+			<dd>【営業時間】11:00～19:00</dd>
+			<dd>【定休日】毎週水曜日</dd>
 		</dl>
 		<dl>
 			<dt>お問合せ・ご質問はこちらから</dt>
-			<dd class="tel"><span data-action="call" data-tel="0729479666">072-947-9666</span></dd>
+			<dd class="tel"><span data-action="call" data-tel="0784147274">078-414-7274</span></dd>
 		</dl>
 	</header><!--header-->
 </div><!--wrap-->

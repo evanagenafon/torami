@@ -1,10 +1,10 @@
 <div class="footer">
 	<div class="foot_wrap">
 		<dl>
-			<dt>〒558-0014</dt>
-			<dd>大阪府大阪市住吉区我孫子3-3-6</dd>
-			<dd>TEL:<span data-action="call" data-tel="0729479666">072-947-9666</span></dd>
-			<dd>【営業時間】11:00～21:00</dd>
+			<dt>〒658-0081</dt>
+			<dd>兵庫県神戸市東灘区田中町3-4-5-101</dd>
+			<dd>TEL:<span data-action="call" data-tel="0784147274">078-414-7274</span></dd>
+			<dd>【営業時間】11:00～19:00</dd>
 			<dd>【定休日】年中無休(年末年始除く)</dd>
 			<dd><span>古物商：大阪府公安委員会許可 第 621120142182</span></dd>
 		</dl>
@@ -32,7 +32,7 @@
 		atag.src = _protocol + 'js.ptengine.jp/pta.js';
 		var stag = document.createElement('script'); stag.type = 'text/javascript'; stag.async = true;
 		stag.src = _protocol + 'js.ptengine.jp/pts.js';
-		var s = document.getElementsByTagName('script')[0]; 
+		var s = document.getElementsByTagName('script')[0];
 		s.parentNode.insertBefore(atag, s);s.parentNode.insertBefore(stag, s);
 	})();
 </script>

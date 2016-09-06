@@ -27,11 +27,7 @@
 				<?php endwhile;?>
 			</ul>
 			<p><img src="<?php bloginfo('template_url'); ?>/img/konnna.jpg" alt="トラミなら小さな宝石にもしっかり値段を付けます！" /></p>
-			<div class="contact">
-				<p>11:00～21:00年中無休(年末年始除く)</p>
-				<p class="tel"><span data-action="call" data-tel="0792920648">072-947-9666</span></p>
-				<p class="free"><a href="http://torami.jp/contact/">無料宅配・出張買取申込み♪</a></p>
-			</div><!--contact-->
+			<?PHP include("contact.php"); ?>
 		</div><!--juery-->
 
 		<h2><span class="gold_cl">トラミ</span>が選ばれる<span class="pink">6</span>つの理由</h2>

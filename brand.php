@@ -28,11 +28,9 @@
 					</li>
 					<?php endwhile;?>
 				</ul>
-				<div class="contact">
-					<p>11:00～21:00年中無休(年末年始除く)</p>
-					<p class="tel"><span data-action="call" data-tel="0792920648">072-947-9666</span></p>
-					<p class="free"><a href="http://torami.jp/contact/">無料宅配・出張買取申込み♪</a></p>
-				</div><!--contact-->
+
+				<?PHP include("contact.php"); ?>
+
 				<p><img src="<?php bloginfo('template_url'); ?>/img/alright.jpg" alt="トラミなら壊れていてもＯＫ" /></p>
 			</div><!--brand-->
 
