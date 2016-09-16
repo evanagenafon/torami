@@ -3,35 +3,6 @@
 <link rel="stylesheet" href="<?PHP echo get_stylesheet_directory_uri(); ?>/js/slick-theme.css">
 <link rel="apple-touch-icon" href="<?php bloginfo('template_url'); ?>/img/icon.jpg">
 <link rel="shortcut icon" href="<?php bloginfo('template_url'); ?>/img/icon.jpg">
-<?php wp_deregister_script('jquery'); ?>
-<!-- WordPressのjQueryを読み込ませない -->
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-<script src="<?php bloginfo('template_url');?>/js/slick.min.js"></script>
-<script>
-$(function() {
-	$('#slide').slick({
-	accessibility:false,autoplay:true,dots: true,infinite: true,
-	autoplaySpeed: 3500,speed: 850,
-	});
-});
-</script>
-<script>
-$(function() {
-    if (!isPhone())
-        return;
-
-    $('span[data-action=call]').each(function() {
-        var $ele = $(this);
-        $ele.wrap('<a href="tel:' + $ele.data('tel') + '"></a>');
-    });
-});
-
-function isPhone() {
-    return (navigator.userAgent.indexOf('iPhone') > 0 || navigator.userAgent.indexOf('Android') > 0);
-}
-</script>
-
-
 
 </head>
 

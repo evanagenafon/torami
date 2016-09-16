@@ -56,5 +56,25 @@ if(empty($first_img)){ //Defines a default image
 return $first_img;
 }
 
+//ログインページのアイコン
+function custom_login_logo() {
+ echo '<style type="text/css">h1 a { background: url('.get_bloginfo('template_directory').'/img/rogo.png) no-repeat 50% 50% !important; width:100% !important;background-size:contain !important; }</style>';
+ }
+add_action('login_head', 'custom_login_logo');
+
+// 管理メニューの追加
+/*add_action( 'admin_menu', 'my_plugin_menu' );
+
+function my_plugin_menu() {
+	add_menu_page( 'My Plugin Options', '相場更新', 'manage_options', 'my-unique-identifier', 'my_plugin_options' );
+}
+
+function my_plugin_options() {
+	if ( !current_user_can( 'manage_options' ) )  {
+		wp_die( __( 'You do not have sufficient permissions to access this page.' ) );
+	}
+	echo include("gold_form.php");
+}
+*/
 
 ?>
