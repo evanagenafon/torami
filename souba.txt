@@ -1,3 +1,2 @@
-
-		<dd><span class='k_cl'>K18</span>   ￥3,493</dd>
-		<dd><span class='pt'>PT900</span> ￥3,432</dd>
+<dd><span class='k_cl'>K18</span>   ￥3,425</dd>
+<dd><span class='pt'>PT900</span> ￥3,246</dd>
