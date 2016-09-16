@@ -26,7 +26,7 @@
 
 <?php wp_deregister_script('jquery'); ?>
 <!-- WordPressのjQueryを読み込ませない -->
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="<?php bloginfo('template_url');?>/js/jquery.min.js"></script>
 <script src="<?php bloginfo('template_url');?>/js/slick.min.js"></script>
 <script>
 $(function() {
