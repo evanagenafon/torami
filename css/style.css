@@ -72,7 +72,7 @@ body{
 }
 
 #site-title{
-	background: url(../img/rogo.png) no-repeat;
+	background: url(../img/rogo.svg) no-repeat;
 	background-size:contain;
 	width: 300px;
 	height:60px;
@@ -88,7 +88,7 @@ body{
 
 .header{
 	overflow:hidden;
-	padding-top: 20px;
+	padding-top: 40px;
 	margin-bottom: 30px;
 }
 
@@ -159,6 +159,19 @@ dd.tel{
 .nav2{
 	width:100%;
 	margin-bottom: 60px;
+}
+
+.shop_info{
+	overflow: hidden;
+}
+
+.shop_info ul li{
+	float: left;
+	width: 40%;
+}
+
+.shop_info ul li.shop_info-main{
+	width: 60%;
 }
 
 .side{
@@ -439,8 +452,17 @@ li#menu-item-152>a{
 	max-height:500px;
 }
 
-#single>.wrap>.main>.blog{
-  max-height: 100%;
+#single .main{
+  float: none;
+  width: 700px;
+  margin: 0 auto;
+}
+
+#single .single_post{
+  border-radius: 5px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
 }
 
 .blogwrap{
@@ -608,7 +630,7 @@ h2.title{
 	width: 960px;
 	margin: 0 auto;
 	padding: 30px 0 20px;
-	background: url(../img/rogo_02.png) 0 20px no-repeat;
+	background: url(../img/rogo02.svg) 0 20px no-repeat;
 	-webkit-background-size: 200px 40px;
 	background-size: 200px 40px;
 }

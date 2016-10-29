@@ -38,6 +38,7 @@
 			<li><a href="http://torami.jp/brand/"><img src="<?php bloginfo('template_url'); ?>/img/header.png" alt="洋服買取"></a></li>
 		</ul>
 	</div><!--nav2-->
+	<p class="shop_info"><img src="<?php bloginfo('template_url'); ?>/img/shop01.png" alt="店舗写真" /></p>
 	<div class="side">
 		<h2><span class="gold_cl">M</span>ENU</h2>
 		<?PHP wp_nav_menu(array(

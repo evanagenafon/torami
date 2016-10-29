@@ -504,7 +504,7 @@ p.postinfo{
 	width: 960px;
 	margin: 0 auto;
 	padding-top: 20px;
-	background: url(../img/rogo_02.png) 0 20px no-repeat;
+	background: url(../img/rogo.svg) 0 20px no-repeat;
 	-webkit-background-size: 200px 40px;
 	background-size: 200px 40px;
 }
@@ -679,7 +679,7 @@ li.two{
 	background: url(../img/ptel.png) no-repeat 0;
 	-webkit-background-size: 30px;
 	background-size: 30px;
-	
+
 }
 
 .takuhai>ul>li.no6>p.tel>span{
