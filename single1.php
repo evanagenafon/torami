@@ -59,7 +59,7 @@ function isPhone() {
 				<p class="postinfo"><?PHP echo get_the_date(); ?></p>
   			<p class="new"><?PHP next_post_link(); ?></p>
   			<p class="old"><?PHP previous_post_link(); ?></p>
-  			<p class="all"><a href="<?PHP echo home_url(); ?>">一覧へ</a></p>
+  			<p class="list"><a href="<?PHP echo home_url(); ?>">一覧へ</a></p>
       </article><!--single_post-->
 		<?PHP endwhile; endif; ?>
 

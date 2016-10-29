@@ -462,8 +462,23 @@ li#menu-item-152>a{
   border-radius: 5px;
   padding: 20px;
   border: 1px solid #ccc;
+  box-shadow: 1px 1px 3px #333;
   margin-bottom: 20px;
 }
+
+#single .single_post .new{
+  float: right;
+}
+
+#single .single_post .old{
+  float: left;
+}
+
+#single .single_post .list{
+  text-align: center;
+}
+
+
 
 .blogwrap{
 	width: 430px;
