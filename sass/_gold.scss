@@ -1,0 +1,68 @@
+/*貴金属買取ここから*/
+
+.gold{
+  width: 700px;
+  margin: 0 auto;
+	font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
+
+.gold>.left{
+	float: left;
+	width: 50%;
+}
+
+.gold>.right{
+	float: left;
+	width: 50%;
+}
+
+
+.gold>div>table>tbody>tr>th{
+	background: #F1F1F1;
+	width: 70%;
+	line-height: 2;
+	border: 1px solid #ccc;
+}
+
+.gold>div>table>tbody>tr>td{
+	text-align: center;
+	width: 30%;
+	border: 1px solid #ccc;
+
+}
+
+
+.gold>div{
+	padding: 20px;
+	box-sizing: border-box;
+}
+
+.gold>div>h3{
+	width: 100%;
+	line-height: 3.0;
+	font-size: 20x;
+	text-align: center;
+	font-weight: bold;
+	border: 1px solid #ccc;
+	background: #ddd;
+	box-sizing: border-box;
+}
+
+.gold>div>h3.price3{
+	margin-top: 30px;
+}
+
+.gold>div>h3>span{
+	font-size: 12px;
+	font-weight: 100;
+}
+
+.gold>p:nth-child(4){
+	clear:both;
+}
+
+.gold>p>img{
+	margin-bottom: 30px;
+}
+
+/*貴金属買取ここまで*/

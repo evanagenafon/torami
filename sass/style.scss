@@ -1,0 +1,649 @@
+@import "base";
+@import "anime";
+@import "brand";
+@import "contact_form";
+@import "gold";
+@import "line";
+@import "juery";
+@import "syuttyou";
+@import "takuhai";
+@import "single";
+@import "archive";
+
+
+.wrap{
+	max-width: 1200px;
+	width: 95%;
+	margin: 0 auto;
+	background: #fff;
+	overflow:hidden;
+}
+
+.top_img{
+	background: url(../img/torami_top.jpg)no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	ul{
+		display: flex;
+		background: rgba(0,0,0,0.5);
+		justify-content: space-around;
+		padding: 10vw 12vw;
+	}
+	li{
+		border: 1px solid #fff;
+		width: 20%;
+		text-align: center;
+	}
+	a{
+		display: block;
+		height: 100%;
+		width: 100%;
+		color: #fff;
+		font-size: 26px;
+		padding: 11vw 0;
+		box-sizing: border-box;
+		transition: .3s;
+		&:hover{
+			box-shadow: 0 0 30px rgba(255,255,255,.6) inset;
+			color: #D5B841;
+		}
+	}
+}
+
+.item_list{
+	&-list{
+		display: flex;
+		flex-wrap: wrap;
+	}
+	&-item{
+		width: 50%;
+		display: flex;
+		box-sizing: border-box;
+		border: 10px solid #000;
+		&:nth-child(even){
+			border-left: none;
+		}
+		&:nth-child(n+3){
+			border-top: none;
+		}
+		&:nth-child(3){
+			.item_list-img{
+				order: 1;
+			}
+		}
+		&:nth-child(4){
+			.item_list-img{
+				order: 1;
+			}
+		}
+	}
+	&-img{
+		width: 50%;
+		height: 284px;
+		overflow: hidden;
+		img{
+			width: 100%;
+			height: auto;
+		}
+	}
+	&-text{
+		width: 50%;
+		text-align: center;
+		display: flex;
+		flex-wrap: wrap;
+		align-content: center;
+		padding: 10px;
+		position: relative;
+		h3{
+			margin-bottom: 5px;
+			font-size: 16px;
+			font-weight: bold;
+			width: 100%;
+		}
+	}
+	&-price{
+		width: 100%;
+		color: $pink;
+		position: absolute;
+		left: 0;
+		bottom: 20px;
+	}
+}
+
+#site-title{
+	background: url(../img/rogo.svg) no-repeat;
+	background-size:contain;
+	width: 300px;
+	height:60px;
+	float:left;
+	a{
+		overflow: hidden;
+		text-indent: 100%;
+		white-space: nowrap;
+		display: block;
+		width: 100%;
+		height: 100%;
+	}
+}
+
+.header{
+  width: 100%;
+  margin: 0 auto;
+	overflow:hidden;
+	padding-top: 45px;
+	background: #fff;
+	&_wrap{
+		padding: 10px;
+	}
+}
+
+.header dl{
+	float:right;
+	margin-right: 10px;
+}
+
+.header>dl>dt{
+	font-size:12px;
+	text-align:right;
+}
+
+dd.tel{
+	font-size: 30px;
+	text-align: right;
+	line-height: 35px;
+}
+
+.header_time{
+  margin-top: 10px;
+}
+
+.header_time dd{
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.header .header_info{
+	width: 350px;
+	font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  margin-top: -40px;
+  margin-right: 0;
+	line-height: 1;
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom: 30px;
+}
+
+.header_wrap>.header_info>dt{
+	width: 50%;
+	text-align:center;
+	background: #333;
+	color: #fff;
+	padding: 20px 0;
+}
+
+.header_info>dd{
+	width: 50%;
+	font-size:15px;
+	font-weight:bold;
+	text-align:center;
+	border: 2px solid #333;
+	box-sizing: border-box;
+	padding: 20px 0;
+}
+
+.header_info> dd:nth-child(2){
+	padding-right: 0;
+	font-size:11px;
+  font-weight: 100;
+	text-align:center;
+	background: #333;
+	color: #fff;
+}
+
+.header_info> dd:nth-child(3){
+	border-right: none;
+	border-top: none;
+}
+
+.header_info> dd:nth-child(4){
+	border-top: none;
+}
+
+.nav{
+	clear: both;
+	width: 100%;
+	height:40px;
+	position: absolute;
+	top: 150px;
+}
+
+.another{//トップページ以外のナビ
+	background: #333;
+	position: static;
+	margin-bottom: 20px;
+}
+
+#menu-menu{
+	width:$pc-width;
+	height:40px;
+	margin: 0 auto;
+}
+
+#menu-menu>li{
+	width:128px;
+	height:40px;
+	box-sizing:border-box;
+	float:left;
+}
+
+#menu-menu>li>a{
+	display:block;
+	color:#fff;
+	text-align:center;
+	width: 100%;
+	height:40px;
+	line-height:40px;
+	font-family: "メイリオ", sans-serif;
+	font-size:13px;
+	transition: all .3s;
+}
+
+#menu-menu>li>a:hover{
+	box-shadow: 0 0 30px rgba(255,255,255,.6) inset;
+}
+
+
+.shop_info{
+	overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.main{
+	width: 100%;
+}
+
+.main h1{
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.main>h2{
+	font-size:25px;
+	margin-bottom: 20px;
+	clear:both;
+	text-align:center;
+}
+
+.main>p{
+	margin-bottom: 30px;
+}
+
+.home{
+	h2{
+		background: #222;
+		color: #fff;
+		border-bottom: 5px solid $gold;
+		line-height: 3;
+		text-align: center;
+		margin-bottom: 0;
+	}
+}
+
+.top_logo{
+	text-align: center;
+	padding:10vw 0;
+	background: #fff;
+	width: 95%;
+	max-width: 1200px;
+	margin: 0 auto;
+	img{
+		width: 25%;
+	}
+}
+
+.necessary{
+	display: flex;
+	flex-wrap: wrap;
+	color: #fff;
+	background: #1A1A1A;
+	h2{
+		width: 100%;
+	}
+	&_text{
+		width: 50%;
+		padding:0 5%;
+		box-sizing: border-box;
+		align-self: center;
+		h3{
+			font-size: 25px;
+			text-align: center;
+			margin-bottom: 30px;
+		}
+	}
+	&_list{
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-around;
+		padding: 10px;
+		padding-bottom: 0;
+		border: 2px solid #fff;
+		margin-bottom: 30px;
+		li{
+			font-size: 18px;
+			font-weight: bold;
+			margin-bottom: 10px;
+		}
+	}
+	&_img{
+		width: 50%;
+		line-height: 0;
+	}
+}
+
+.reason{
+  clear: both;
+}
+
+.reason h2{
+  font-size: 25px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.reason>ul>li{
+	width: 32%;
+	float:left;
+	height:160px;
+	border:rgba(0,0,0,0.2) 2px solid;
+	padding: 1%;
+	box-sizing:border-box;
+	margin-bottom: 20px;
+}
+
+.reason>ul>li+li{
+	margin-left: 2%;
+}
+.reason>ul>li:nth-child(4){
+	margin-left: 0;
+}
+
+.reason>ul>li>h3{
+	width: 100%;
+	height:65px;
+  margin-bottom: 10px;
+  overflow: hidden;
+  white-space: nowrap;
+	text-indent:100%;
+	background: url(../img/h36.png) no-repeat ;
+	-webkit-background-size: contain;
+	background-size: contain;
+}
+
+.reason>ul>li>h3.no1{
+	background: url(../img/h31.png) no-repeat;
+	-webkit-background-size: contain;
+	background-size: contain;
+}
+.reason>ul>li>h3.no2{
+	background: url(../img/h32.png) no-repeat;
+	-webkit-background-size: contain;
+	background-size: contain;
+}
+.reason>ul>li>h3.no3{
+	background: url(../img/h33.png) no-repeat;
+	-webkit-background-size: contain;
+	background-size: contain;
+}
+.reason>ul>li>h3.no4{
+	background: url(../img/h34.png) no-repeat;
+	-webkit-background-size: contain;
+	background-size: contain;
+}
+.reason>ul>li>h3.no5{
+	background: url(../img/h35.png) no-repeat;
+	-webkit-background-size: contain;
+	background-size: contain;
+}
+
+.reason>ul>li>p{
+	font-size:16px;
+}
+
+//ブログ一覧
+
+.blog{
+  width: 100%;
+	background: #dfdfdf;
+	padding-bottom: 30px;
+	&_title{
+	}
+	&-more{
+		text-align: center;
+		a{
+			width: 10%;
+			display: block;
+			border: 2px solid #333;
+			padding: 10px;
+			color: #333;
+			margin: 0 auto;
+			transition: .3s;
+			&:hover{
+				color: $gold;
+			}
+		}
+	}
+}
+
+.blogwrap{
+	width: 100%;
+	box-sizing:border-box;
+	overflow: hidden;
+	margin-top: 30px;
+	margin-bottom: 50px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.blogwrap>p{
+	font-size:12px;
+	line-height: 2;
+}
+
+.blogwrap>p.new{
+	float:right;
+}
+
+.blogwrap>p.all{
+	clear:both;
+	text-align:center;
+}
+
+.post{
+	width: 49%;
+	font-size:15px;
+	overflow: hidden;
+	background: #fff;
+	margin-bottom: 20px;
+	padding: 10px;
+	box-sizing: border-box;
+	&_img{
+		width: 35%;
+	  height: 205px;
+		float:left;
+		overflow: hidden;
+		img{
+			width: auto;
+			height: 100%;
+		}
+	}
+	a{
+		color: #333;
+		transition: 0.2s;
+		&:hover{
+			color: #BB0101;
+		}
+	}
+}
+
+.post_right{
+	float:left;
+	width: 65%;
+	text-align: center;
+	padding: 20px;
+	box-sizing: border-box;
+	height: 205px;
+	display: flex;
+	align-content: center;
+	flex-wrap: wrap;
+}
+
+.post_right p{
+	margin-bottom: 5px;
+	word-wrap: break-word;
+	font-size: 14px;
+}
+
+p.postinfo{
+	width: 100%;
+	font-size:12px;
+	color: #FC908D;
+}
+
+.post-title{
+	width: 100%;
+	margin-bottom: 10px;
+	font-size:18px;
+	max-height: 45px;
+	font-weight:bold;
+  overflow: hidden;
+}
+
+.footer{
+	clear:both;
+	width: 100%;
+	color: #fff;
+	background: #333;
+	font-size:15px;
+	padding-top: 30px;
+	line-height: 1.5;
+}
+
+
+.foot_wrap{
+	width: $pc-width;
+	margin: 0 auto;
+	padding: 30px 0 20px;
+	background: url(../img/rogo02.svg) 0 20px no-repeat;
+	-webkit-background-size: 200px 40px;
+	background-size: 200px 40px;
+}
+
+.foot_wrap>dl{
+	float:left;
+	margin-top: 50px;
+	margin-bottom: 20px;
+	font-size: 16px;
+}
+
+.foot_wrap>dl>dd:nth-child(7){
+	margin-top: 20px;
+}
+
+.foot_wrap>ul{
+	line-height:1.3;
+	float:left;
+	margin-left: 50px;
+	padding-left: 50px;
+	border-left: 1px solid #fff;
+	line-height: 2;
+
+}
+
+.foot_wrap>ul>li>a{
+	color: #fff;
+}
+
+.foot_wrap>ul>li>a:hover{
+	color:#D5B841;
+}
+
+.footer_map{
+	float: right;
+	width: 30%;
+}
+
+address{
+	clear:both;
+	text-align:right;
+}
+
+/*相場更新ページ*/
+
+.koushin>p{
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.koushin>a{
+	display: block;
+	padding: 20px;
+	margin: 0 auto;
+	color: #fff;
+	background: #E4C85A;
+	width: 50%;
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+	box-shadow: 1px 1px 3px rgb(0, 0, 0);
+}
+
+//下層ページの共通スタイル
+.flex-wrap{
+	display: flex;
+	justify-content: space-between;
+	.side{
+		width: 30%;
+		&_post{
+			border: 1px solid #dfdfdf;
+			margin-bottom: 10px;
+			text-align: center;
+			background: #dfdfdf;
+			padding: 5px;
+			&_img{
+				height: 200px;
+				background: #fff;
+				overflow: hidden;
+				img{
+					height: 100%;
+					width: auto;
+				}
+			}
+			.postinfo{
+				line-height: 2;
+				font-size: 14px;
+				background: #333;
+				color: #fff;
+			}
+			&-title{
+				line-height: 1.3;
+				font-size: 20px;
+				color: #333;
+				margin-bottom: 0;
+				padding: 10px;
+				background: #fff;
+			}
+			&:hover{
+				img{
+					transform: scale(1.2);
+				}
+				.side_post-title{
+					color: $red;
+				}
+			}
+		}
+	}
+}

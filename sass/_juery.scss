@@ -1,0 +1,137 @@
+/*ジュエリー買取ページ*/
+
+.juery{
+  width: 700px;
+  margin: 0 auto;
+}
+
+
+.juery>p>img{
+	margin-bottom: 30px;
+}
+
+.juery>h2{
+	font-size: 25px;
+	margin-bottom: 20px;
+	text-align:center;
+	font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+	font-weight:bold;
+}
+
+.juery>ul{
+	overflow:hidden;
+}
+
+.jueryPost{
+	box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.5) inset;
+	width: 24%;
+	float:left;
+	border:1px solid #dfdfdf;
+	box-sizing:border-box;
+	padding: 8px;
+	margin-left: 1%;
+	margin-bottom: 20px;
+}
+
+.jueryPost:nth-child(1),
+.jueryPost:nth-child(5),
+.jueryPost:nth-child(9){
+	margin-left: 0;
+}
+
+
+
+.jueryPost>h2{
+	font-size:14px;
+	color:#d50101;
+	text-align:center;
+	margin-top: 10px;
+	font-weight:bold;
+}
+
+.jueryPost>h2>span{
+	font-size:11px;
+}
+
+.jueryPost>p:nth-child(1){
+	width: 100%;
+	height: 150px;
+	overflow:hidden;
+	margin-bottom: 10px;
+}
+
+.jueryPost>p:nth-child(1)>img{
+	width: 100%;
+}
+
+.jueryPost>p:nth-child(2){
+	color:#555;
+	height:50px;
+	font-size:14px;
+	border-bottom: 1px dotted #999;
+}
+
+.juery>.contact{
+	overflow: hidden;
+	border-radius: 5px;
+	font-size: 13px;
+	padding: 10px;
+	width: 600px;
+	border:3px solid #F56767;
+	margin: 0 auto 30px;
+}
+
+.juery>.contact>p{
+	margin: 0;
+	font-size:12px;
+}
+
+
+.juery>.contact>p.tel{
+	float:left;
+	font-size:30px;
+	font-weight:bold;
+	padding-left: 30px;
+	background: url(../img/ptel.png) no-repeat 0;
+	-webkit-background-size: 30px;
+	background-size: 30px;
+
+}
+
+.juery>.contact>p.tel>span{
+	color: #F56767;
+}
+
+.juery>.contact>p.free{
+	border-radius:5px ;
+	margin-top: -15px;
+	margin-left: 15px;
+	width: 340px;
+	line-height: 50px;
+	font-size:23px;
+	padding-left: 10px;
+	float:left;
+		background: #F56767 url(../img/free_takuhai.png) no-repeat right;
+	-webkit-background-size: 50px;
+	background-size: 50px;
+	box-shadow: 1px 1px 3px;
+	transition:all .3s;
+}
+
+.juery>.contact>p.free:hover{
+	box-shadow: 0 0 30px rgba(255,255,255,.6) inset;
+}
+
+
+.juery>.contact>p.free>a{
+	height: 50px;
+	display:block;
+	color: #fff;
+}
+
+p.line_img{
+	clear:both;
+}
+
+
+/*ジュエリーここまで*/

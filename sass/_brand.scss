@@ -1,0 +1,123 @@
+/*ブランド買取開始*/
+
+.brand{
+  width: 700px;
+  margin: 0 auto;
+}
+
+.marginb{
+  margin-bottom: 20px;
+}
+
+.brand>h2{
+	font-size:25px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.brand>ul{
+	overflow:hidden;
+	margin-bottom: 30px;
+}
+
+.brand>ul>li{
+	float:left;
+	width: 25%;
+	border:1px solid #E1D9B4;
+	box-sizing:border-box;
+	padding: 1%;
+	background: #EEE9D4;
+}
+
+.brand>ul>li>p{
+	font-size:13px;
+	margin-bottom: 10px;
+}
+
+.brand>ul>li> p:nth-child(1){
+	height: 160px;
+	overflow: hidden;
+}
+
+.brand>ul>li> p:nth-child(2){
+	height: 43px;
+	overflow: hidden;
+}
+
+.brand>ul>li>p>img{
+	border:1px solid #E1D9B4;
+}
+
+
+.brand>ul>li>h3{
+	font-size:22px;
+	color: #B60106;
+	font-weight:bold;
+	text-align:center;
+}
+
+.brand>ul>li>h3>span{
+	color: #333;
+	font-size:12px;
+	display: block;
+}
+
+.brand>.contact{
+	overflow: hidden;
+	border-radius: 5px;
+	font-size: 13px;
+	padding: 10px;
+	width: 600px;
+	border:3px solid #F56767;
+	margin: 0 auto;
+}
+
+.brand>.contact>p{
+	margin: 0;
+	font-size:12px;
+}
+
+
+.brand>.contact>p.tel{
+	float:left;
+	font-size:30px;
+	font-weight:bold;
+	padding-left: 30px;
+	background: url(../img/ptel.png) no-repeat 0;
+	-webkit-background-size: 30px;
+	background-size: 30px;
+
+}
+
+.brand>.contact>p.tel>span{
+	color: #F56767;
+}
+
+.brand>.contact>p.free{
+	border-radius:5px ;
+	margin-top: -15px;
+	margin-left: 15px;
+	width: 340px;
+	line-height: 50px;
+	font-size:23px;
+	padding-left: 10px;
+	float:left;
+		background: #F56767 url(../img/free_takuhai.png) no-repeat right;
+	-webkit-background-size: 50px;
+	background-size: 50px;
+	box-shadow: 1px 1px 3px;
+	transition:all .3s;
+}
+
+.brand>.contact>p.free:hover{
+	box-shadow: 0 0 30px rgba(255,255,255,.6) inset;
+}
+
+
+.brand>.contact>p.free>a{
+	height: 50px;
+	display:block;
+	color: #fff;
+}
+
+/*ブランド買取ここまで*/

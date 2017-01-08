@@ -1,0 +1,138 @@
+/*出張買取開始*/
+
+
+.syuttyou{
+	width: 700px;
+  margin: 0 auto;
+}
+
+
+.syuttyou>ul.nagare>li{
+	border: 2px solid #dfdfdf;
+	margin-bottom: 20px;
+	box-sizing: border-box;
+	border-radius:5px;
+	padding: 10px;
+	width: 700px;
+	height: 130px;
+}
+
+.syuttyou>ul.nagare>li.no1{
+	background: url(../img/tel1.png) no-repeat 530px;
+	-webkit-background-size: contain;
+	background-size: contain;
+}
+
+.syuttyou>ul.nagare>li.no2{
+	background: url(../img/genkan.png) no-repeat right;
+	-webkit-background-size: contain;
+	background-size: contain;
+}
+
+.syuttyou>ul.nagare>li.no3{
+	background: url(../img/satei1.png) no-repeat right;
+	-webkit-background-size: contain;
+	background-size: contain;
+}
+
+.syuttyou>ul.nagare>li.no4{
+	background: url(../img/happy1.png) no-repeat 530px;
+	-webkit-background-size: contain;
+	background-size: contain;
+}
+
+
+.syuttyou>ul.nagare>li>h2{
+	line-height: 2;
+	font-size: 18px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	margin-bottom: 0;
+}
+
+.syuttyou>ul.nagare>li>h2>span{
+	display: block;
+	float: left;
+	background: #E4C963;
+	width: 30px;
+	height: 30px;
+	margin-top: 3px;
+	margin-right: 5px;
+	text-align: center;
+	line-height: 30px;
+	border-radius: 50%;
+}
+
+.syuttyou>ul.nagare>li>p{
+	font-size: 14px;
+	line-height: 18px;
+	margin-left: 35px;
+}
+
+.syuttyou>h2{
+	font-weight: bold;
+	font-size: 30px;
+	margin-bottom: 20px;
+	background: #C20000;
+	color:#fff;
+	padding: 10px;
+	padding-left: 20px;
+	line-height: 40px;
+	border-radius:10px;
+	width: 600px;
+}
+
+.syorui{
+	border-radius:5px;
+	background: #dfdfdf;
+	padding: 20px;
+}
+
+.syorui>li{
+	background: #fff;
+	font-size: 14px;
+	border: 2px solid #666;
+	margin-bottom: 20px;
+	box-sizing: border-box;
+	padding: 20px;
+	border-radius: 10px;
+	width: 600px;
+	margin: 0 auto 20px;
+}
+
+.syorui>li>h3{
+	color: #C30000;
+	font-size: 18px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	margin-bottom: 10px;
+}
+
+.syorui>li.no1{
+	background: url(../img/mibunsyo.png) no-repeat #fff 300px 10px;
+	-webkit-background-size: 300px;
+	background-size:300px ;
+	font-weight:bold;
+}
+
+.syorui>li.no1>ul>li{
+	line-height: 20px;
+}
+
+.syorui>li.no5{
+	border-radius:0;
+	background: #CC6666 url(../img/296806.png) no-repeat right;
+	-webkit-background-size: 120px;
+	background-size: 120px;
+}
+
+.syorui>li.no5>h3{
+	color: #fff;
+}
+
+.syorui>li.no5>p{
+	width: 400px;
+}
+
+
+/*出張買取ここまで*/

@@ -1,0 +1,93 @@
+/*お問合せ開始*/
+
+.contact_form{
+  width: 700px;
+  margin: 0 auto 20px;
+}
+
+.contact_submit{
+  margin: 20px 0 20px;
+  text-align: center;
+}
+
+table{
+	width: 100%;
+  border: 2px solid #dadada;
+}
+
+.wpcf7-form table{
+  border-radius: 5px;
+}
+
+form.wpcf7-form{
+	border-radius:5px;
+}
+
+form.wpcf7-form>p{
+	margin-bottom: 10px;
+}
+
+.wpcf7-form>table>tbody>tr{
+	height: 50px;
+	border-bottom: 2px solid #fff;
+}
+
+.wpcf7-form>table>tbody>tr:nth-last-child(-n+2){
+	border-bottom: none;
+}
+
+
+.wpcf7-form>table>tbody>tr>th{
+	vertical-align: middle;
+	font-weight:bold;
+	text-align:right;
+	width: 30%;
+	padding: 10px;
+	color: #333;
+  border-bottom: 2px solid #dfdfdf;
+}
+
+.wpcf7-form>table>tbody>tr>th:last-child{
+	background: none;
+}
+
+.wpcf7-form>table>tbody>tr:nth-child(9)>th{
+	vertical-align:top;
+  border-bottom: none;
+}
+
+.wpcf7-form>table>tbody>tr>td{
+	padding: 10px;
+	border-bottom: 2px solid #dfdfdf;
+	vertical-align:middle;
+}
+
+.wpcf7-form>table>tbody>tr:nth-child(9)>td{
+	border-bottom: none;
+}
+
+
+.wpcf7-form>table>tbody>tr>td>span>textarea{
+	width: 90%;
+}
+
+
+.wpcf7-form>table>tbody>tr>td>span>input{
+  width: 90%;
+  padding: 10px;
+}
+
+
+
+.wpcf7-submit{
+	width: 100px;
+	height: 35px;
+	background:#777;
+	color: #fff;
+	border: none;
+	font-weight: bold;
+	font-size:18px;
+	border-radius:5px;
+}
+
+/*お問合せここまで*/
