@@ -16,7 +16,12 @@
 	<div class="main">
 		<div class="flex-wrap">
 			<div class="line">
-				<h1>かんたんLINE査定の流れ</h1>
+				<div class="breadcrumbs">
+					<h1>かんたんLINE査定の流れ</h1>
+					<?php if(function_exists('bcn_display')){
+							bcn_display();
+					}?>
+				</div>
 				<h2>登録はかんたん！たったの３ステップ</h2>
 				<ul class="touroku">
 					<li class="no1">STEP1

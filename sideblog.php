@@ -2,7 +2,7 @@
 <?php
 $paged = (int) get_query_var('paged');
 $args = array(
- 'posts_per_page' => 10,
+ 'posts_per_page' => 5,
  'paged' => $paged,
  'orderby' => 'post_date',
  'post_type' => 'post',

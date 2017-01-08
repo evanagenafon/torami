@@ -17,6 +17,11 @@
 		<div class="flex-wrap">
 			<div class="syuttyou">
 				<h1><?PHP the_title(); ?></h1>
+				<div class="breadcrumbs">
+					<?php if(function_exists('bcn_display')){
+							bcn_display();
+					}?>
+				</div>
 				<ul class="nagare">
 					<li class="no1">
 						<h2><span>1</span>申し込み、訪問日を決定します。</h2>

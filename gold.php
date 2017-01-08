@@ -17,6 +17,11 @@
 		<div class="flex-wrap">
 			<div class='gold'>
 				<h1><?PHP the_title(); ?></h1>
+				<div class="breadcrumbs">
+					<?php if(function_exists('bcn_display')){
+							bcn_display();
+					}?>
+				</div>
 				<p>最終更新：<?php echo date( 'Y/n/j', time() ) ?> 10:00</p>
 				<div class='left'>
 					<h3 class='price1'>金現金買取価格   <span>1g当たり</span></h3>

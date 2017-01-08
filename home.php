@@ -25,7 +25,7 @@
 			<div class="item_list-list">
 				<?php
 					$args = array(
-			    	'post_type' => array('brand', 'juery'), /* 投稿タイプを指定 */
+			    	'post_type' => array('brandpost', 'juerypost'), /* 投稿タイプを指定 */
 		    		'paged' => $paged,
 			    	'posts_per_page' => '6'
 					); ?>

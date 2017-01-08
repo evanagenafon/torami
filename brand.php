@@ -19,6 +19,11 @@
 			<div class="brand">
 				<section class="item_list anime marginb">
 					<h2>関西一の高価買取を目指して</h2>
+					<div class="breadcrumbs">
+						<?php if(function_exists('bcn_display')){
+								bcn_display();
+						}?>
+					</div>
 					<div class="item_list-list">
 						<?php
 							$args = array(

@@ -18,6 +18,11 @@
 			<div class="contact_form">
 				<?PHP if(have_posts()): while(have_posts()): the_post(); ?><!--記事が無くなるまで繰り返す。-->
 				<h1><?PHP the_title(); ?></h1>
+				<div class="breadcrumbs">
+					<?php if(function_exists('bcn_display')){
+							bcn_display();
+					}?>
+				</div>
 				<?PHP the_content(); ?>
 				<?PHP endwhile; endif; ?>
 				<p><a href="http://torami.jp/line/"><img src="<?php bloginfo('template_url'); ?>/img/line.JPG" alt="LINE査定" /></a></p>

@@ -17,6 +17,11 @@
 		<div class="flex-wrap">
 			<div class="takuhai">
 				<h1><?PHP the_title(); ?></h1>
+				<div class="breadcrumbs">
+					<?php if(function_exists('bcn_display')){
+							bcn_display();
+					}?>
+				</div>
 				<ul>
 					<li class="no1">
 						<h2>1.お申込み</h2>

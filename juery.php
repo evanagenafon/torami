@@ -16,8 +16,13 @@
 	<div class="main">
 		<div class="flex-wrap">
 			<div class="juery">
+				<h1><span class="gold_cl">専門業者</span>も<span class="pink">驚き</span>の高額買取♪</h1>
+				<div class="breadcrumbs">
+					<?php if(function_exists('bcn_display')){
+							bcn_display();
+					}?>
+				</div>
 				<p><img src="<?php bloginfo('template_url'); ?>/img/juery.jpg" alt="トラミなら小さな宝石にもしっかり値段を付けます！" /></p>
-				<h2><span class="gold_cl">専門業者</span>も<span class="pink">驚き</span>の高額買取♪</h2>
 				<ul>
 				<?php query_posts('showposts=12&cat=10'); while(have_posts()) : the_post(); ?>
 				<li class="jueryPost">
