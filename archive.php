@@ -14,6 +14,7 @@
 
 <?PHP get_header("2"); ?>
 
+
 	<div class="main">
 		<div class="archive">
 			<section class="blog_archive">
