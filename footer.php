@@ -20,7 +20,7 @@
 			<li><a href="http://torami.jp/line/">LIME無料査定♪</a></li>
 		</ul>
 		<p class="footer_map anime"><img src="<?php bloginfo('template_url'); ?>/img/map.svg" alt="map"></p>
-		<address>Copyright © 2016 TORAMI , All rights reserved.</address>
+		<address>Copyright © 2016 <a style="color:#D5B841;" href="http://life-thewild.com/">WILD</a> , All rights reserved.</address>
 	</div><!--foot_wrap-->
 </footer><!--footer-->
 <?php wp_footer(); ?>

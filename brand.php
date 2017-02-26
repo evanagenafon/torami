@@ -29,7 +29,7 @@
 							$args = array(
 					    	'post_type' => array('brandpost'), /* 投稿タイプを指定 */
 				    		'paged' => $paged,
-					    	'posts_per_page' => '6'
+					    	'posts_per_page' => '10'
 							); ?>
 						<?php query_posts( $args ); ?>
 						<?php if (have_posts()) : ?>
@@ -39,7 +39,7 @@
 								//商品画像
 								$img = get_field('img');
 								$imgurl = wp_get_attachment_image_src($img, 'large');
-								if($imgurl){ ?><p class="item_list-img"><img src="<?PHP echo $imgurl[0]; ?>" alt="施工写真"></p>
+								if($imgurl){ ?><p class="item_list-img change"><img src="<?PHP echo $imgurl[0]; ?>" alt="施工写真"></p>
 			 					<?PHP }?>
 								<div class="item_list-text">
 									<h3><?php the_title(); ?></h3>

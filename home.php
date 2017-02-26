@@ -32,7 +32,7 @@
 				<?php query_posts( $args ); ?>
 				<?php if (have_posts()) : ?>
 				<?php while (have_posts()) : the_post(); ?>
-					<article class="item_list-item">
+					<article class="item_list-item change">
 						<?PHP
 						//商品画像
 						$img = get_field('img');

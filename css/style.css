@@ -48,12 +48,14 @@ article, aside, footer, header, menu, nav {
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
+  box-sizing: border-box;
 }
 
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
 footer, header, nav, section {
   display: block;
+  box-sizing: border-box;
 }
 
 table {
@@ -303,6 +305,7 @@ h3 {
 table {
   width: 100%;
   border: 2px solid #dadada;
+  font-size: 14px;
 }
 
 .wpcf7-form table {
@@ -349,6 +352,17 @@ form.wpcf7-form > p {
   padding: 10px;
   border-bottom: 2px solid #dfdfdf;
   vertical-align: middle;
+}
+
+.wpcf7-form > table > tbody > tr > td select {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  border-radius: 0;
+  padding: 5px;
+  padding-right: 20px;
+  background: url("../img/select_greybg.svg") no-repeat right center;
+  background-size: 15px;
 }
 
 .wpcf7-form > table > tbody > tr:nth-child(9) > td {
@@ -1496,7 +1510,31 @@ li.two {
   display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
+  border: 3px solid #555;
+}
+
+.item_list-item.change {
   border: 10px solid #000;
+}
+
+.item_list-item.change:nth-child(even) {
+  border-left: none;
+}
+
+.item_list-item.change:nth-child(n+3) {
+  border-top: none;
+}
+
+.item_list-item.change:nth-child(3) .item_list-img {
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
+}
+
+.item_list-item.change:nth-child(4) .item_list-img {
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
 }
 
 .item_list-item:nth-child(even) {
@@ -1531,6 +1569,10 @@ li.two {
           align-items: center;
 }
 
+.item_list-img.change {
+  height: 210px;
+}
+
 .item_list-img img {
   width: 100%;
   height: auto;
@@ -1546,6 +1588,9 @@ li.two {
       flex-wrap: wrap;
   -ms-flex-line-pack: center;
       align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   padding: 10px;
   position: relative;
 }
@@ -1563,10 +1608,12 @@ li.two {
 
 .item_list-price {
   width: 100%;
-  color: #FC908D;
+  color: #C4010F;
   position: absolute;
   left: 0;
   bottom: 20px;
+  font-size: 16px;
+  letter-spacing: 1px;
 }
 
 #site-title {
@@ -1595,7 +1642,7 @@ li.two {
 }
 
 .header_wrap {
-  padding: 10px;
+  padding: 15px;
 }
 
 .header dl {
@@ -1678,7 +1725,8 @@ dd.tel {
   width: 100%;
   height: 40px;
   position: absolute;
-  top: 160px;
+  top: 165px;
+  background: #333;
 }
 
 .another {
@@ -1688,13 +1736,14 @@ dd.tel {
 }
 
 #menu-menu {
-  width: 1024px;
+  width: 95%;
+  max-width: 1200px;
   height: 40px;
   margin: 0 auto;
 }
 
 #menu-menu > li {
-  width: 128px;
+  width: 12.5%;
   height: 40px;
   box-sizing: border-box;
   float: left;
@@ -1998,8 +2047,8 @@ dd.tel {
 
 p.postinfo {
   width: 100%;
-  font-size: 12px;
-  color: #FC908D;
+  font-size: 14px;
+  color: #C4010F;
 }
 
 .post-title {
@@ -2022,7 +2071,8 @@ p.postinfo {
 }
 
 .foot_wrap {
-  width: 1024px;
+  width: 95%;
+  max-width: 1200px;
   margin: 0 auto;
   padding: 30px 0 20px;
   background: url(../img/rogo02.svg) 0 20px no-repeat;
@@ -2060,6 +2110,7 @@ p.postinfo {
 .footer_map {
   float: right;
   width: 30%;
+  margin-bottom: 10px;
 }
 
 address {
@@ -2104,8 +2155,8 @@ address {
   border: 1px solid #dfdfdf;
   margin-bottom: 10px;
   text-align: center;
-  background: #dfdfdf;
-  padding: 5px;
+  background: #555;
+  padding: 3px;
 }
 
 .flex-wrap .side_post_img {
@@ -2136,8 +2187,8 @@ address {
 }
 
 .flex-wrap .side_post:hover img {
-  -webkit-transform: scale(1.2);
-          transform: scale(1.2);
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
 }
 
 .flex-wrap .side_post:hover .side_post-title {

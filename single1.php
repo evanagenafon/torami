@@ -26,7 +26,7 @@
 			<?php the_content(); ?>
 			<p class="new"><?PHP next_post_link(); ?></p>
 			<p class="old"><?PHP previous_post_link(); ?></p>
-			<p class="list"><a href="<?PHP echo home_url(); ?>">一覧へ</a></p>
+			<p class="list"><a href="<?PHP echo home_url('blog-archive'); ?>">一覧へ</a></p>
 		<?PHP endwhile; endif; ?>
 		</article><!--single_post-->
 		<p class="single_banner"><a href="http://torami.jp/line/"><img src="<?php bloginfo('template_url'); ?>/img/line.JPG" alt="LINE査定" /></a></p>

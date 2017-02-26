@@ -13,6 +13,7 @@
 table{
 	width: 100%;
   border: 2px solid #dadada;
+  font-size: 14px;
 }
 
 .wpcf7-form table{
@@ -60,6 +61,14 @@ form.wpcf7-form>p{
 	padding: 10px;
 	border-bottom: 2px solid #dfdfdf;
 	vertical-align:middle;
+  select{
+    appearance: none;
+    border-radius: 0;
+    padding: 5px;
+    padding-right: 20px;
+    background:url('../img/select_greybg.svg')no-repeat right center;
+    background-size: 15px;
+  }
 }
 
 .wpcf7-form>table>tbody>tr:nth-child(9)>td{
