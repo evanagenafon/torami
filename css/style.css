@@ -1460,7 +1460,12 @@ li.two {
 .top_img {
   background: url(../img/torami_top.jpg) no-repeat;
   background-size: cover;
-  background-attachment: fixed;
+}
+
+@media screen and (min-width: 1024px) {
+  .top_img {
+    background-attachment: fixed;
+  }
 }
 
 .top_img ul {

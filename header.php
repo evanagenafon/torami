@@ -21,7 +21,7 @@
 			</dl>
 			<dl>
 				<dt>お問合せ・ご質問はこちらから</dt>
-				<dd class="tel"><span data-action="call" data-tel="0784147274">TEL:078-414-7274</span></dd>
+				<dd class="tel"><span data-action="call" data-tel="0729479512">TEL:072-947-9512</span></dd>
 			</dl>
 		</div><!--header_wrap-->
 		<nav class="nav">

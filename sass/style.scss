@@ -22,7 +22,9 @@
 .top_img{
 	background: url(../img/torami_top.jpg)no-repeat;
 	background-size: cover;
-	background-attachment: fixed;
+	@include media-query($pc-width){
+		background-attachment: fixed;
+	}
 	ul{
 		display: flex;
 		background: rgba(0,0,0,0.5);

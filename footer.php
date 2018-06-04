@@ -1,10 +1,9 @@
 <footer class="footer">
 	<div class="foot_wrap">
 		<dl>
-			<dt>〒658-0081</dt>
-			<dd>兵庫県神戸市東灘区田中町3-4-5-101</dd>
-			<dd>TEL:<span data-action="call" data-tel="0784147274">078-414-7274</span></dd>
-			<dd>FAX:<span>078-414-7294</span></dd>
+			<dt>〒550-0015</dt>
+			<dd>大阪府大阪市西区南堀江4丁目4番20号アーデンタワー南堀江1207号</dd>
+			<dd>TEL:<span data-action="call" data-tel="0729479512">072-947-9512</span></dd>
 			<dd>【営業時間】11:00～19:00</dd>
 			<dd>【定休日】毎週水曜日</dd>
 			<dd><span>古物商：大阪府公安委員会許可 第 621120142182</span></dd>
@@ -19,7 +18,9 @@
 			<li><a href="http://torami.jp/contact/">各種お問合せ</a></li>
 			<li><a href="http://torami.jp/line/">LIME無料査定♪</a></li>
 		</ul>
-		<p class="footer_map anime"><img src="<?php bloginfo('template_url'); ?>/img/map.svg" alt="map"></p>
+		<p class="footer_map anime">神戸店
+			<img src="<?php bloginfo('template_url'); ?>/img/map.svg" alt="map">
+		</p>
 		<address>Copyright © 2016 <a style="color:#D5B841;" href="http://life-thewild.com/">WILD</a> , All rights reserved.</address>
 	</div><!--foot_wrap-->
 </footer><!--footer-->
